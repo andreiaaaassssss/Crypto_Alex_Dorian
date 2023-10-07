@@ -1,0 +1,150 @@
+*{
+  box-sizing:border-box;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
+  overflow:hidden;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  
+}
+
+body {
+margin: 0;
+padding: 0;
+margin: 0;
+padding: 0;
+background: #080c2c;
+background: url('../Poze/bg.jpg') no-repeat center center fixed;
+background-size: cover;
+height: 100%;
+overflow: hidden;
+
+}
+
+.navbar{
+    background: #86868600;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color:rgb(235, 235, 235);   
+   
+    z-index: 1;
+}
+
+.brand-title{
+    font-size: 3rem;
+    margin: 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 1;
+}
+
+.navbar-pages ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    z-index: 1;
+}
+
+.navbar-pages li a{
+    text-decoration: none;
+    color: white;
+    padding: 0.8rem;
+    display: block;
+    background: #4ad86200;
+    border-radius: 20px;
+    margin-right: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 0.15rem solid #ffffff;
+    transition: 0.2s;
+    
+}
+
+.navbar-pages li {
+    list-style: none;
+}
+
+.navbar-pages li:hover a{
+    background-color:#ffffffd2;
+    color: #000000;
+    border: solid 0.15rem #ffffff;
+    font-size: 1.2rem;
+    
+}
+
+.toggle-menu{
+    color: white;
+    position: absolute;
+    right: 1rem;
+    width: 30px;
+    height: 20px;
+    flex-direction: column;
+    display: none;
+    justify-content: space-between;
+    top:1.03125rem;
+}
+.toggle-menu .bar{
+    width: 100%;
+    height: 3px;
+    background: #ffffff;
+    border-radius: 0px;
+}
+
+@media(max-width: 1500px){
+
+    .toggle-menu{
+        display: flex;
+    }
+
+    .navbar-pages{
+        display: none;
+        width: 100%;
+    }
+    .navbar{
+    flex-direction: column;
+    align-items: start;
+    z-index: 1;
+    }
+
+    .navbar-pages ul{
+        flex-direction: column;
+        width: 100%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        background: hsla(0, 0%, 54%, 0.397);  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(7px);
+        -webkit-backdrop-filter: blur(7px);
+        padding: 5%;
+        border-radius: 20px;
+        
+    }
+
+    .navbar-pages li{
+        text-align: center;
+    }
+
+    .navbar-pages li a{
+        padding: 0.5rem 1rem;
+        margin-right: 3rem;
+        margin-left: 3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .navbar-pages.active{
+        display: flex;
+    }
+
+}
+
+.iframe { 
+    overflow:hidden;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    position: fixed;
+   
+    border: none;
+    top: 8%; right: 0;
+    bottom: 0; left: 0;
+    width: 100%;
+    height: 92%;
+    z-index: 0;
+}
+
