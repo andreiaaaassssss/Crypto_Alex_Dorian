@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;/* https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
+
+
+}
+body::-webkit-scrollbar{
+    display: none;
+  }
+
+.container1{
+    background: hsla(224, 64%, 14%, 0.439);
+    margin-right:20rem;
+    margin-left: 20rem;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 1rem;
+    border: solid 0.5rem rgba(5, 3, 27, 0.521);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7px);
+-webkit-backdrop-filter: blur(7px);
+margin-bottom: 1rem;
+
+}
+
+.container3{
+    background: #0d193b70;
+    margin-right:0;
+    margin-left: 0;
+    border-radius: 20px;
+    padding: 1rem;
+    border: solid 0.5rem rgba(5, 3, 27, 0.521);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    
+
+}
+
+
+.container2{
+    background: hwb(244 0% 93%);
+    margin-right:20rem;
+    margin-left: 20rem;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 1rem;
+    border: solid 0.5rem rgba(5, 3, 27, 0.521);
+    margin-bottom: 1rem;
+}
+.container3 img {
+  width: 5rem;
+}
+
+
+body{
+    background: #00000000;
+    
+}
+
+
+
+
+.HomeImgage{
+    background: #000;
+    background: url('https://cdn.discordapp.com/attachments/327098977025523712/1158881149674860544/cryptocurrency.png?ex=651ddbad&is=651c8a2d&hm=736848910c1a5a06e28f4537fc5127b510654538f55c67e90dedb82e2b4704d4&');
+    background-size: 10%;
+    background-repeat: no-repeat;
+    padding: 8%;
+    background-position: center;
+    
+    border-radius: 100px;
+    
+   
+}
+
+
+.title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2px;
+    font-size: 3rem;
+    color: rgb(225, 251, 255);
+    text-shadow: 0.5px 0.5px 0.2px rgba(255, 24, 24, 0.808), 2px 2px 5px rgb(255, 10, 10), 2px 2px rgb(247, 0, 235), 0px 0px 70px rgba(85, 12, 221, 0.973);
+    background: rgba(2, 0, 29, 0.664);
+    padding: 1%;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 0px 0px 20px 1px rgba(255, 8, 8, 0);
+    border: 1px solid rgba(0, 0, 0, 0.493);
+    border-radius: 5px;
+    transition: 1s;
+    box-shadow: 0px 0px 20px 1px rgb(8, 226, 255);
+    
+    animation: animatie 3s alternate-reverse infinite linear;
+    
+}
+
+@keyframes animatie  {
+    from {box-shadow: 0px 0px 20px 1px rgb(107, 0, 247);
+        text-shadow: 0.5px 0.5px 0.2px rgba(228, 14, 14, 0), 2px 2px 5px rgba(0, 0, 0, 0), 2px 2px rgb(107, 0, 247), 0px 0px 70px rgb(107, 0, 247);}
+    to {box-shadow: 0px 0px 20px 1px rgb(255, 255, 255);
+        text-shadow: 0.5px 0.5px 0.2px rgba(0, 0, 0, 0), 2px 2px 5px rgba(255, 89, 89, 0), 2px 2px rgb(107, 0, 247), 0px 0px 70px rgb(241, 253, 255);}
+  }
+
+
+.text-coin{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    color: rgba(253, 253, 253, 0.822);
+    text-shadow: 0.5px 0.5px 0.2px rgba(5, 12, 32, 0), 2px 2px 5px rgba(0, 0, 0, 0), 2px 2px rgb(4, 45, 99), 0px 0px 70px rgba(0, 0, 0, 0.815);
+    background: rgba(65, 161, 56, 0.842);
+    padding: 1%;
+    margin-left:1rem;
+    box-shadow: 0px 0px 20px 1px rgba(255, 8, 8, 0);
+    border: 1px solid rgba(0, 0, 0, 0.493);
+    border-radius: 5px;
+    transition: 1s;
+    
+    
+    
+}
+
+.text-price{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    color: rgba(253, 253, 253, 0.822);
+    text-shadow: 0.5px 0.5px 0.2px rgba(5, 12, 32, 0), 2px 2px 5px rgba(0, 0, 0, 0), 2px 2px rgb(4, 45, 99), 0px 0px 70px rgba(0, 0, 0, 0);
+    background: rgba(65, 161, 56, 0.842);
+    padding: 1%;
+    margin-left:1rem;
+    box-shadow: 0px 0px 20px 1px rgba(255, 8, 8, 0);
+    border: 1px solid rgba(0, 0, 0, 0.493);
+    border-radius: 5px;
+    transition: 1s;
+    width: 50%;
+
+   
+    
+}
+
+.Contact-text {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    color: rgba(253, 253, 253, 0.822);
+    text-shadow: 0.5px 0.5px 0.2px rgba(5, 12, 32, 0), 2px 2px 5px rgba(0, 0, 0, 0), 2px 2px rgb(4, 45, 99), 0px 0px 70px rgba(0, 0, 0, 0);
+    background: rgb(22, 22, 22);
+    padding: 1%;
+    margin-left:1rem;
+    box-shadow: 0px 0px 20px 1px rgba(255, 8, 8, 0);
+    border: 1px solid rgba(0, 0, 0, 0.493);
+    border-radius: 5px;
+    transition: 1s;
+    width: 50%;
+    
+
+}
+.Contact-text2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    color: rgba(253, 253, 253, 0.822);
+    text-shadow: 0.5px 0.5px 0.2px rgba(255, 255, 255, 0), 2px 2px 5px rgba(0, 0, 0, 0), 2px 2px rgb(4, 45, 99), 0px 0px 70px rgba(0, 0, 0, 0);
+    background: rgba(16, 137, 194, 0.842);
+    padding: 1%;
+    margin-left:1rem;
+
+    border: 1px solid rgba(0, 0, 0, 0.493);
+    border-radius: 5px;
+    transition: 1s;
+    width: 50%;
+
+}
+
+@media(max-width: 1500px){
+    
+.title {
+    font-size: 1.5rem ;
+    margin-left: 0%;
+    margin-right: 0%;  
+}
+
+
+.container1{
+    margin-right:1rem;
+    margin-left: 1rem;
+   
+}
+
+.container3{
+    margin-right:1rem;
+    margin-left: 1rem;
+ 
+}
+
+
+.container2{
+    margin-right:1rem;
+    margin-left: 1rem;
+   
+}
+.container3 img {
+  width: 3rem;
+}
+
+.text-coin{
+    font-size: 1.5rem;
+}
+
+.text-price{
+    font-size: 1rem;
+    width: 100%;
+    margin-left: 0;
+}
+
+.Contact-text {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    color: rgba(253, 253, 253, 0.822);
+    text-shadow: 0.5px 0.5px 0.2px rgba(5, 12, 32, 0), 2px 2px 5px rgba(0, 0, 0, 0), 2px 2px rgb(4, 45, 99), 0px 0px 70px rgba(0, 0, 0, 0);
+    background: rgb(22, 22, 22);
+    padding: 1%;
+    margin-left:0rem;
+    box-shadow: 0px 0px 20px 1px rgba(255, 8, 8, 0);
+    border: 1px solid rgba(0, 0, 0, 0.493);
+    border-radius: 5px;
+    transition: 1s;
+    width: 100%;
+
+}
+.Contact-text2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    color: rgba(253, 253, 253, 0.822);
+    text-shadow: 0.5px 0.5px 0.2px rgba(255, 255, 255, 0), 2px 2px 5px rgba(0, 0, 0, 0), 2px 2px rgb(134, 134, 134), 0px 0px 70px rgba(0, 0, 0, 0);
+    background: rgba(16, 137, 194, 0.842);
+    padding: 1%;
+    margin-left:0rem;
+
+    border: 1px solid rgba(0, 0, 0, 0.493);
+    border-radius: 5px;
+    transition: 1s;
+    width: 100%;
+
+}
+
+
+}

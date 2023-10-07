@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../CSS/iframe.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../Js/Script.js" defer></script>
+    <title>Document</title>
+     
+</head>
+<body>
+    <div class="container1">
+        <div class="titlu" align="center">Totul despre crypto monede</div>
+        <div class="homeImage"></div>
+    </div>
+   
+
+    <div class="container2">  
+    
+    <div class="container3" >
+    <span><img  src="../Poze/Coin_BTC.png" alt=""></span>   
+    <span class="text-coin">BTC</span>   
+    <span class="text-price" id="btc">XXXXX USD</span>  
+    </div>  
+
+    <div class="container3" >
+        <span><img  src="../Poze/Coin_ETH.png" alt=""></span>   
+        <span class="text-coin">ETH</span>   
+        <span class="text-price" id="eth">XXXXX USD</span>  
+    </div>  
+
+    <div class="container3" >
+        <span><img  src="../Poze/Coin_DOGE.png" alt=""></span>   
+        <span class="text-coin">DOGE</span>   
+        <span class="text-price" id="doge">XXXXX USD</span>  
+    </div>  
+
+    <div class="container3" >
+        <span><img  src="../Poze/Coin_XRP.png" alt=""></span>   
+        <span class="text-coin">XRP</span>   
+        <span class="text-price" id="xrp">XXXXX USD</span>  
+     </div>  
+    
+        
+    </div>
+
+    <div align="center" class="container1">
+    
+    <h1 class="convert-text1">Converteste din:</h1>
+
+    <select class="convert-text2" name="moneda" id="valuta0" onchange="Converteste()">
+        <option value="BTC">BTC</option>
+        <option value="ETH">ETH</option>
+        <option value="DOGE">DOGE</option>
+        <option value="XRP">XRP</option>
+    </select>
+
+    <input type="text" class="text-price" id="text-intrare" oninput="Converteste()" >
+
+
+        
+    <h1 class="convert-text1">In:</h1>
+
+    <select class="convert-text2" name="moneda" id="valuta1" onchange="Converteste()"> 
+        <option value="RON">RON</option>
+        <option value="EUR">EUR</option>
+        <option value="USD">USD</option>
+        
+    </select>
+
+    <input type="text" class="text-price" id="text-iesire" >
+
+
+    </div>
+
+
+</body>
+</html>
